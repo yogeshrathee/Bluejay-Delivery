@@ -3,9 +3,7 @@ package org.example;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -14,7 +12,11 @@ public class EmployeeAnalyzer {
         String excelFilePath = "C:\\Users\\Yoges\\OneDrive\\Desktop\\JAVA\\Bluejay-Delivery\\EmployeeAnalysis\\Assignment_Timecard.xlsx"; // Update with your file path
 
         try (FileInputStream fis = new FileInputStream(new File(excelFilePath));
-             Workbook workbook = new XSSFWorkbook(fis)) {
+             Workbook workbook = new XSSFWorkbook(fis);
+             FileOutputStream fos = new FileOutputStream("output.txt");
+             PrintStream ps = new PrintStream(fos)) {
+
+            System.setOut(ps); // Redirect System.out to the file
 
             Sheet sheet = workbook.getSheetAt(0); // Assuming the data is in the first sheet
             Iterator<Row> rowIterator = sheet.iterator();

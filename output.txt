@@ -1,0 +1,29 @@
+Employee Name: CaMaXaWE, CeghaW
+Conditions met:
+- 1 shifts with less than 10 hours but greater than 1 hour between them
+
+Employee Name: HaCiXMEW, DeaWMe DevEW
+Conditions met:
+- 1 shifts with less than 10 hours but greater than 1 hour between them
+
+Employee Name: DeXgadiXXE REdarMe, ChrisMiaW S
+Conditions met:
+- 1 shifts with less than 10 hours but greater than 1 hour between them
+- 1 shifts exceeding 14 hours
+
+Employee Name: MraW, WiXXiaC Ha
+Conditions met:
+- 2 shifts with less than 10 hours but greater than 1 hour between them
+
+Employee Name: Xee, XaCar
+Conditions met:
+- 3 shifts with less than 10 hours but greater than 1 hour between them
+
+Employee Name: CEreira Jr, JEse
+Conditions met:
+- 1 shifts with less than 10 hours but greater than 1 hour between them
+
+Employee Name: De Xa Cerda, IgWaciE
+Conditions met:
+- 1 shifts with less than 10 hours but greater than 1 hour between them
+
